@@ -1,0 +1,54 @@
+*{
+    font-family: Arial;
+  }
+  
+  body{
+    background-color: darkslategray
+  }
+ 
+  
+  
+  /* Estilo del boton cuando se pasa el mouse por encima*/
+  label:hover{
+    background: grey;
+  }
+  
+  /* Estilo del boton cuando el menú está expandido*/
+  
+  
+  
+  li {
+    margin: 0;
+    padding: 10px;
+    
+  }
+  
+  @media(max-width:1800px) {
+    #fotos{
+      width: 100%!important;
+    }
+  }
+  
+.icono{
+  max-width: 200px;
+  margin: 20px;
+}
+
+.datos{
+  color: white;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+@media(max-width:800px){
+  .icono{
+    max-width: 150px;
+  }
+  .mifoto{
+    width: 300px!important;
+  }
+}
+
+#con{
+  color:white;
+}
